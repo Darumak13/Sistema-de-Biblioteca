@@ -8,6 +8,7 @@ use App\Models\Autor;
 class AutorController extends Controller
 
 {
+    
     public function index()
 
     {
@@ -19,7 +20,7 @@ class AutorController extends Controller
     public function indexadm()
 
     {
-        return view('resoucers.index');
+        return view('index');
     }
 
     public function cadastro($id=null)

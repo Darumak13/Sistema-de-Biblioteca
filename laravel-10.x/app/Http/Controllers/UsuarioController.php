@@ -16,12 +16,6 @@ class UsuarioController extends Controller
         return view('usuarios.index', compact('usuarios'));
     }
 
-    public function indexadm()
-
-    {
-        return view('resoucers.index');
-    }
-
     public function cadastro($id=null)
 
     {
