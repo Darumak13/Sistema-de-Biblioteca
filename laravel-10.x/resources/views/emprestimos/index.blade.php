@@ -1,4 +1,4 @@
-<h1>Lista de Usuários</h1>
+<h1>Lista de Emprestimo</h1>
 <table>
 <tr>
 <th>Titulo</th>
