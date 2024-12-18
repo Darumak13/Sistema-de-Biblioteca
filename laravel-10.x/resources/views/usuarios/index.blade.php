@@ -1,7 +1,11 @@
+@extends('index')
+
+@section('conteudo')
+
 <h1>Lista de Usuários</h1>
-<table>
-<tr>
-<th>Nome</th>
+<table class="table">
+<tr class="col">
+<th class="row">Nome</th>
 <th>Email</th>
 <th>Editar</th>
 <th>Remover</th>
@@ -15,3 +19,5 @@
 </tr>
 @endforeach
 </table>
+
+@endsection

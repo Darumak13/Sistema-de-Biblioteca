@@ -17,7 +17,7 @@ use App\Http\Controllers\EmprestimoController;
 |
 */
 
-Route::get('/',[AdministrativoController::class,'indexadm']);
+Route::get('/',[AdministrativoController::class,'index']);
 
 
 Route::get('/usuarios',[UsuarioController::class,'index']);
